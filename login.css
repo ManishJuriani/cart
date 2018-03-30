@@ -1,0 +1,146 @@
+#header{
+	font-size:80px;
+	color:red;
+	background-color:black;
+	position: absolute;
+	text-align: center;
+	position:sticky;
+	/* font-family:verdana; */
+	border: 1px solid white;
+}
+
+#header img:hover{
+	opacity:0.7;
+	cursor:pointer;
+}
+
+#footer{
+
+}
+
+#container{
+	position: relative;
+}
+
+#logo_image{
+	opacity: 1;
+	margin-top:25;
+	/* margin-left:20; */
+
+	
+}
+
+#website_name{
+	/* margin: auto; */
+	text-decoration:none;
+	color:white;
+}
+
+#header a:hover{
+	color:red;
+}
+
+.button{
+	/* float: right; */
+	font-size:24px;
+	background-color:blue;
+	color:pink;
+	padding:2px 5px;
+	border-radius:5px;
+	border: none;
+	text-decoration: none;
+	cursor:pointer;
+}
+
+#button_login{
+	cursor: not-allowed;
+	opacity: 0.6;
+}
+
+button:hover{
+	color:white;
+	background-color: red;
+	border-bottom: 2px dotted white;
+}
+
+
+.btn_grp{
+	margin-left: 700px;
+}
+
+.tooltiptext{
+	visibility: hidden;
+	color:white;
+	text-align:center;
+	position:absolute;
+	z-index:1;
+}
+
+#button_login:hover .tooltiptext{
+	visibility:visible;
+	position:absolute;
+	z-index:1;
+	top:60px;
+	right:18%;
+}
+
+body{
+	background-color:black;
+}
+
+#main{
+	text-align:center;
+	position:absolute;
+	left:30%;
+	top:200%;
+	/* border:1px dashed red; */
+	padding:20px;
+	background-color:black;
+}
+
+#main:hover{
+	border:1px solid black;
+	background-color:black;
+}
+
+#main_box{
+	border:2px dashed white;
+	/* background-color:grey; */
+	padding:10px;
+	position:relative;
+}
+
+
+
+.fld_name{
+	/* width:49%; */
+	text-align:center;
+	font-size:30px;
+	color:#ffcc66;
+}
+
+.colon{
+	font-size:30px;
+	text-align:right;
+}
+
+input{
+	border-radius:5px;
+	padding:3px;
+}
+
+
+td{
+	color:#ffcc66;
+}
+
+.fld_input{
+	width:49%;
+}
+
+#sbm_btn{
+	border-radius:5px;
+	background-color:#99ff99;
+	font-size:25px;
+	cursor:pointer;
+}
